@@ -1,0 +1,20 @@
+run:
+SyntaxError: PerpustakaanRunner.java:5:8 Expected ; but found gradleproject1
+package gradleproject1;
+        ^
+PerpustakaanRunner.java:11:7 Expected ; but found class
+public class Perpustakaan {
+       ^
+PerpustakaanRunner.java:16:11 Expected ; but found static
+    public static void main(String[] args) {
+           ^
+PerpustakaanRunner.java:17:19 Expected ; but found pust
+        Pustakawan pust = new Pustakawan();
+                   ^
+PerpustakaanRunner.java:31:4 Expected eof but found }
+    }
+    ^
+
+C:\Users\D2A\AppData\Local\NetBeans\Cache\18\executor-snippets\run.xml:111: The following error occurred while executing this line:
+C:\Users\D2A\AppData\Local\NetBeans\Cache\18\executor-snippets\run.xml:94: Java returned: 7
+BUILD FAILED (total time: 0 seconds)
