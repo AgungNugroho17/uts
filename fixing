@@ -1,0 +1,20 @@
+public class PerpustakaanRunner {
+
+    public static void main(String[] args) {
+        Pustakawan pust = new Pustakawan();
+        pust.logIn("0123455", "Muhammad Ingsun");
+        pust.inputAnggota("A12223", "Frida Pengen Dimengerti", "081-2223334");
+        pust.inputAnggota("A22334", "Fajri Hidup Sehat", "081-2223334");
+        pust.inputKoleksi("Memasak Cepat Sekali", "Koki Hebat", 3);
+        pust.inputKoleksi("Pemrograman Java", "Wiratno Utomo", 5);
+        pust.inputKoleksi("Manajemen Admin Odoo", "Budi Andito", 2);
+        pust.inputKoleksi("ERP Mudah dengan Odoo", "Waskito Hartoyo", 4);
+
+        pust.cetakListAnggota();
+        pust.cetakListKoleksi();
+
+        pust.signOut();
+        pust.inputAnggota("X12312", "Inputan terlarang", "000");
+        pust.inputKoleksi("Mencegah Input Terlarang", "Larang", 0);
+    }
+}
